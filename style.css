@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+body{margin:0;color:#111;line-height:1.4;padding:16px;}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.brand{font-weight:700;}
+.links{display:flex;gap:12px;}
+.menuBtn{display:none;}
+.hero{padding:24px 0;}
+.cta{display:inline-block;margin-top:12px;padding:8px 12px;border-radius:6px;background:#111;color:#fff;text-decoration:none;}
+.projects{margin-top:24px;}
+.project-card{border:1px solid #ddd;padding:12px;border-radius:8px;margin-bottom:10px;}
+@media(max-width:600px){
+  .links{display:none;}
+  .menuBtn{display:inline-block;}
+}
